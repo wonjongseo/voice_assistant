@@ -77,6 +77,11 @@ class HomeScreen extends StatelessWidget {
           )
         ],
       ),
+      floatingActionButton: FloatingActionButton(
+        backgroundColor: Pallete.firstSuggestionBoxColor,
+        onPressed: () {},
+        child: const Icon(Icons.mic),
+      ),
     );
   }
 }
